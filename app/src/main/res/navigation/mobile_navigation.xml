@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_articles">
+
+    <fragment
+        android:id="@+id/nav_articles"
+        android:name="pyotr.popov443.lawcodeproject.ui.articles.ArticlesFragment"
+        android:label="@string/menu_articles"
+        tools:layout="@layout/fragment_articles" />
+
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="pyotr.popov443.lawcodeproject.ui.videos.VideosFragment"
+        android:label="@string/menu_videos"
+        tools:layout="@layout/fragment_videos" />
+
+    <fragment
+        android:id="@+id/nav_tests"
+        android:name="pyotr.popov443.lawcodeproject.ui.tests.TestsFragment"
+        android:label="@string/menu_tests"
+        tools:layout="@layout/fragment_tests" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="pyotr.popov443.lawcodeproject.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
